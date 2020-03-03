@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Garage Availability Checker</string>
+    <item name="keyItemID" type="id" />
+    <item name="keyFavoriteTitle" type="id" />
+    <item name="keyGarageName" type="id" />
+    <item name="keyDayWanted" type="id" />
+
+</resources>

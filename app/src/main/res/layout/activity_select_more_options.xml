@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SelectMoreOptionsActivity">
+
+    <Button
+        android:id="@+id/favoriteGarageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/searchGaragesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/blue_button"
+        android:onClick="favoriteView"
+        android:text=" Add, Update, or Delete Garages from your Favorites " />
+
+
+    <Button
+        android:id="@+id/searchGaragesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/blue_button"
+        android:onClick="searchGarageView"
+        android:text=" Search Raw Data " />
+
+    <Button
+        android:id="@+id/viewReportsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchGaragesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/blue_button"
+        android:onClick="reportView"
+        android:text=" View Reports " />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewReportsButton"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/blue_button"
+        android:onClick="signOut"
+        android:text=" Sign Out " />
+
+</RelativeLayout>
